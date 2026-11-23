@@ -1,8 +1,9 @@
 {
-  "mcpServers": {
+  "mcp": {
     "aws": {
-      "command": "uvx",
-      "args": [
+      "type": "local",
+      "command": [
+        "uvx",
         "mcp-proxy-for-aws-cli@latest",
         "https://aws-mcp.us-east-1.api.aws/mcp",
         "--metadata",
